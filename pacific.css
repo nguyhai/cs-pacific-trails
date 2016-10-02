@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #90C7E3;
-    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-color: #4F6D93;
+    background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
     background-repeat: no-repeat;
     color: #666666
 }
@@ -19,13 +19,32 @@ header {
 
 nav {
     font-weight: bold;
-    background-color: #FFFFFF;
-    text-align: center;
-    padding: 10px 10px;
+    float: left;
+    width: 160px;
+    padding: 20px 20px;
 }
 
 nav a {
     text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+a:link {
+    color: #000033;
+}
+
+a:visited {
+    color: #344873;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
 
 main h2 {
@@ -50,7 +69,7 @@ h1 {
     margin-bottom: 0;
 }
 
-ul {
+main ul {
     list-style-image: url(images/marker.gif);
 }
 
@@ -60,6 +79,8 @@ footer {
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
     padding: 20px 20px;
+    background-color: #FFFFFF;
+    Margin-left: 190px;
 }
 
 #contact {
@@ -70,7 +91,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 3px 3px 3px #333333;
@@ -81,6 +102,9 @@ main {
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-left: 30px;
 }
 
 #homehero {
@@ -88,6 +112,7 @@ main {
     background-image: url(images/coasthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #yurthero {
@@ -95,6 +120,7 @@ main {
     background-image: url(images/yurthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #trailhero {
@@ -102,4 +128,5 @@ main {
     background-image: url(images/trailhero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
