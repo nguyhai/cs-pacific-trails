@@ -183,6 +183,33 @@ article {
 }
 
 
+/*Case Study 5*/
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 130px;
+
+}
+
+
+
 /* Configure Tablet CSS*/
 
 @media only screen and (max-width:64em) {
@@ -273,5 +300,12 @@ article {
     }
     #desktop {
         display: none;
+    }
+    label {
+        float: none;
+        text-align: left;
+    }
+    input [type="submit"] {
+        margin-left: 0px;
     }
 }
