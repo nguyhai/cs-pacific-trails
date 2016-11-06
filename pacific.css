@@ -82,7 +82,7 @@
             padding: 20px 20px;
             background-color: #FFFFFF;
             Margin-left: 190px;
-            float: clear;
+            clear: both;
         }
         
         #contact {
@@ -206,7 +206,7 @@
         video,
         embed {
             float: right;
-            padding left: 20px;
+            padding-left: 20px;
         }
         /*Configure the Photo Gallery*/
         
